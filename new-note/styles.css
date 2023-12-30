@@ -1,0 +1,33 @@
+
+    form {
+      display: block;
+      margin-top: 2em;
+    }
+    input[type="text" i] {
+      writing-mode: horizontal-tb !important;
+      padding-block: 1px;
+      padding-inline: 2px;
+    }
+    input {
+      text-align: start;
+      border-width: 2px;
+      border-style: inset;
+    }
+    input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    white-space: pre;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+  
